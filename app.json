@@ -24,7 +24,31 @@
         "description": "Replace <appname> with your Heroku application name. This will ensure the correct webhook URLs are being shown in n8n.",
         "value": "https://<appname>.herokuapp.com"
       },
-      "DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED": {
+      "DB_TYPE": {
+        "description": "db type",
+        "value": "postgresdb"
+      },
+        "DB_POSTGRESDB_HOST": {
+        "description": "Host",
+        "value": "change-me-to-something-else"
+      },
+        "DB_POSTGRESDB_PORT": {
+        "description": "Port",
+        "value": "6543"
+      },
+        "DB_POSTGRESDB_DATABASE": {
+        "description": "Database",
+        "value": "postgres"
+      },
+        "DB_POSTGRESDB_USER": {
+        "description": "Username",
+        "value": "change-me-to-something-else"
+      },
+        "DB_POSTGRESDB_PASSWORD": {
+        "description": "Password",
+        "value": "change-me-to-something-else"
+      },
+        "DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED": {
         "description": "SSL is required to connect to Postgres on Heroku",
         "value": "false"
       }
